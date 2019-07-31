@@ -6,6 +6,6 @@ db.sync()
   .then(() => console.log("Database has been updated!"))
   .catch((error) => {
     console.log(error)
-  }) 
+  })  
 
 module.exports = db  
